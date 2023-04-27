@@ -1,10 +1,10 @@
 {
-  "name": "@edx/frontend-template-application",
+  "name": "@edx/coursesapi-mfe",
   "version": "0.1.0",
   "description": "Frontend application template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-template-application.git"
+    "url": "git+https://github.com/openedx/coursesapi-mfe.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -25,12 +25,12 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/openedx/frontend-template-application#readme",
+  "homepage": "https://github.com/openedx/coursesapi-mfe#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/openedx/frontend-template-application/issues"
+    "url": "https://github.com/openedx/coursesapi-mfe/issues"
   },
   "dependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
@@ -51,7 +51,8 @@
     "react-router": "5.3.4",
     "react-router-dom": "5.3.4",
     "redux": "4.2.1",
-    "regenerator-runtime": "0.13.11"
+    "regenerator-runtime": "0.13.11",
+    "vscode-webhint": "^2.1.9"
   },
   "devDependencies": {
     "@edx/browserslist-config": "^1.1.1",
